@@ -1,0 +1,21 @@
+# For GPU
+# Install locally Pytorch. Visit https://pytorch.org/get-started/locally/
+# Update the following URL to download and install appropriate Torch and Cuda for your system, e.g.: https://download.pytorch.org/whl/cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.3.0+cu118
+
+# For CPU
+# Install Pytorch from PyPI
+# torch==2.3.0
+
+torchmetrics==1.4.0.post0
+tensorboard==2.16.2
+
+datasets==2.19.1
+tokenizers==0.19.1
+
+
+# For notebooks playground
+jupyterlab==4.2.1
+jupyter==1.0.0
+ipywidgets==8.1.3
